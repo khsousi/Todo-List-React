@@ -18,7 +18,6 @@
   font-family:  Courier, monospace;
   font-size: 50px;
   font-weight: 900;
-  
 }
 .todo-continer ul {
   font-size: 20px;
@@ -43,7 +42,6 @@
   border-radius: 8px;
   margin-bottom: 10px;
   cursor: pointer;
-
 }
 .todo-continer ul .li-container span {
   text-align: right;
@@ -55,8 +53,7 @@
   font-size: 1rem;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  cursor: pointer;
-}
+  cursor: pointer;}
 .todo-continer input {
   display: block;
   width: 100%;
@@ -66,8 +63,7 @@
   font-size: 1rem;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
-}
+  border-radius: 8px;}
 .todo-continer button {
   padding: 10px 20px;
   font-size: 1rem;
@@ -75,8 +71,6 @@
   border-radius: 8px;
   background-color: black;
   color: white;
-  cursor: pointer;
-}
+  cursor: pointer;}
 .todo-continer button:hover {
-  background-color: #333;
-}
+  background-color: #333;}
