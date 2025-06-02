@@ -13,14 +13,12 @@ export default function Todo() {
     }
   }
 
-  
   const handleItemClick = (index)=>{
     const newTodos = [...todos]
     newTodos[index].completed = !newTodos[index].completed
     setTodos(newTodos)
   }
 
-  
   const handleItemDelete = (index)=>{
     const newTodos = [...todos]
     newTodos.splice(index , 1)
