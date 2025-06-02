@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
+
 .todo-continer {
   border: 2px solid #ccc;
   padding: 50px;
@@ -14,11 +15,13 @@
   color: #000;
   min-width: 500px
 }
+
 .todo-continer h2 {
   font-family:  Courier, monospace;
   font-size: 50px;
   font-weight: 900;
 }
+
 .todo-continer ul {
   font-size: 20px;
   margin-bottom: 20px;
