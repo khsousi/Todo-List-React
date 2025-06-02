@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .todo-continer {
   border: 2px solid #ccc;
   padding: 50px;
@@ -15,29 +14,24 @@
   color: #000;
   min-width: 500px
 }
-
 .todo-continer h2 {
   font-family:  Courier, monospace;
   font-size: 50px;
   font-weight: 900;
 }
-
 .todo-continer ul {
   font-size: 20px;
   margin-bottom: 20px;
 }
-
 .todo-continer ul li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
 .todo-continer ul .completed {
   text-decoration: line-through;
   color: #666;
 }
-
 .todo-continer ul .li-container {
   display: flex;
   justify-content: space-between;
@@ -49,7 +43,6 @@
   margin-bottom: 10px;
   cursor: pointer;
 }
-
 .todo-continer ul .li-container span {
   text-align: right;
   margin-left: 20px;
@@ -62,7 +55,6 @@
   font-weight: bold;
   cursor: pointer;
 }
-
 .todo-continer input {
   display: block;
   width: 100%;
