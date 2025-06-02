@@ -12,6 +12,7 @@ export default function Todo() {
       inputRef.current.value = ""
     }
   }
+
   
   const handleItemClick = (index)=>{
     const newTodos = [...todos]
@@ -19,6 +20,7 @@ export default function Todo() {
     setTodos(newTodos)
   }
 
+  
   const handleItemDelete = (index)=>{
     const newTodos = [...todos]
     newTodos.splice(index , 1)
