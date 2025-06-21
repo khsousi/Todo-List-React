@@ -12,8 +12,7 @@ export default function Todo() {
       inputRef.current.value = ""
     }
   }
-
-
+  
   const handleItemClick = (index)=>{
     const newTodos = [...todos]
     newTodos[index].completed = !newTodos[index].completed
