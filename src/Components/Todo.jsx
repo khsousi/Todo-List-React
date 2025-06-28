@@ -9,7 +9,7 @@ export default function Todo() {
     if(text.trim() !== ""){
       setTodos([...todos , newItem ])
       inputRef.current.value = ""
-    } 
+    }  
   }
   
   const handleItemClick = (index)=>{ 
