@@ -12,7 +12,7 @@ export default function Todo() {
     } 
   }
   
-  const handleItemClick = (index)=>{
+  const handleItemClick = (index)=>{ 
     const newTodos = [...todos]
     newTodos[index].completed = !newTodos[index].completed
     setTodos(newTodos)
