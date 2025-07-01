@@ -6,7 +6,7 @@ export default function Todo() {
   const handleButtonClick = ()=> {
     const text = inputRef.current.value;
     const newItem = {completed: false, text}
-    if(text.trim() !== ""){
+    if(text.trim() !== ""){ 
       setTodos([...todos , newItem ])
       inputRef.current.value = ""
     }  
