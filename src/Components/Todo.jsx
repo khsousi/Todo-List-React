@@ -1,5 +1,5 @@
 import { useState , useRef } from "react"
-
+ 
 export default function Todo() {
   const [todos , setTodos] = useState([]) 
   const inputRef = useRef()  
@@ -11,7 +11,7 @@ export default function Todo() {
       inputRef.current.value = ""
     }   
   }
-   
+    
   const handleItemClick = (index)=>{ 
     const newTodos = [...todos]
     newTodos[index].completed = !newTodos[index].completed
@@ -43,4 +43,4 @@ export default function Todo() {
   )
 };
 
-
+   
