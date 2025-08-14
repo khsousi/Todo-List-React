@@ -10,7 +10,7 @@ export default function Todo() {
       setTodos([...todos , newItem ])
       inputRef.current.value = ""
     }   
-  }
+  } 
       
   const handleItemClick = (index)=>{ 
     const newTodos = [...todos]
@@ -44,6 +44,7 @@ export default function Todo() {
 };
 
    
+
 
 
 
