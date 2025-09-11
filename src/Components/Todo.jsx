@@ -3,7 +3,7 @@ import { useState , useRef } from "react"
 export default function Todo() { 
   const [todos , setTodos] = useState([]) 
   const inputRef = useRef()   
-  const handleButtonClick = ()=> { 
+  const handleButtonClick = ()=> {  
     const text = inputRef.current.value; 
     const newItem = {completed: false, text}
     if(text.trim() !== ""){  
@@ -44,6 +44,7 @@ export default function Todo() {
 };
 
    
+
 
 
 
