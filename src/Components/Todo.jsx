@@ -7,7 +7,7 @@ export default function Todo() {
     const text = inputRef.current.value; 
     const newItem = {completed: false, text}
     if(text.trim() !== ""){  
-      setTodos([...todos , newItem ])
+      setTodos([...todos , newItem ]) 
       inputRef.current.value = ""
     }   
   } 
@@ -44,6 +44,7 @@ export default function Todo() {
 };
 
    
+
 
 
 
